@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	crossorigin="anonymous"></script>
+<title>Login Page</title>
+<style>
+
+.form-control:focus {
+	border-color: #003166;
+	box-shadow: 0 1px 1px #003166, 0 0 8px #003166;
+}
+
+.button {
+	background-color: #003166;
+	color: white;
+}
+
+.button:hover {
+	color: white;
+}
+
+.center {
+	margin: 5% auto;
+	width: 30%;
+}
+.fcenter{
+  padding:10%;
+}
+.bcenter{
+  padding-left:30%;
+  
+}
+.footer {
+	background-color: #003166;
+	color: white;
+	width: 100%;
+	padding: 15px;
+}
+
+.header {
+	background-color: #003166;
+	color: white;
+}
+.custom-toggler.navbar-toggler {
+            border-color: white;
+        }
+        .custom-toggler .navbar-toggler-icon {
+			background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+		}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  header ">
+		<div class="container-fluid">
+			<img alt="logo" src="logo.jpg" width="40" height="34"
+				class="p-1 ml-4"> Sports Academy
+			<button class="navbar-toggler custom-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav p-2">
+					<li class="nav-item ml-4"><a class="nav-link active"
+						aria-current="page" href="Home.html">Home</a></li>
+					<li class="nav-item ml-4"><a class="nav-link"
+						href="About.html">About</a></li>
+					<li class="nav-item ml-4"><a class="nav-link"
+						href="Gallery.html">Gallery</a></li>
+					<li class="nav-item ml-4"><a class="nav-link"
+						href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="container">
+
+		<form action="Login" method="post" class="center">
+		<div style="border:1px solid #003166; box-shadow: 0 1px 1px #003166, 0 0 8px #003166;" class="fcenter">
+		<div class="mb-3">
+				<label for="id" class="form-label">Id <span
+					style="color: red;">*</span></label> <input type="text"
+					class="form-control" name="id" required>
+			</div>
+			<div class="mb-3">
+				<label for="name" class="form-label">Username <span
+					style="color: red;">*</span></label> <input type="text"
+					class="form-control" name="name" required>
+			</div>
+			
+			<div class="mb-3">
+				<label for="psw" class="form-label">Password <span
+					style="color: red;">*</span></label> <input type="password"
+					class="form-control" name="psw" required>
+			</div>
+			<h6 id="test" style="color:red;"></h6>
+			<br>
+			<div class="bcenter">
+			<button type="submit" class="btn button" style=" width: auto;">Login</button>
+			</div>
+			</div>
+		</form>
+		</div>
+	<div class="footer">
+		<p class="container">&copy; 2018 Sports Academy. Designed in
+			Chennai</p>
+	</div>
+</body>
+</html>
