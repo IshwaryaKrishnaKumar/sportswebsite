@@ -70,8 +70,7 @@ https://github.com/IshwaryaKrishnaKumar
 Screenshots
 Home---   https://www.awesomescreenshot.com/image/45128659?key=d20b7525a57c3340f47de43726fe32df
 About--   https://www.awesomescreenshot.com/image/45128670?key=c677555893ea0f75c5f5042c57c6e8f8
-Gallery-- https://www.awesomescreenshot.com/image/45128670?key=c677555893ea0f75c5f5042c57c6e8f8
-
+Gallery-- https://www.awesomescreenshot.com/image/45128680?key=017d80e6515bf8cf8f88f981c888285f
 Admin Page
 https://www.awesomescreenshot.com/image/45128687?key=2bb691e832b9b727ba13643673c0312d
 https://www.awesomescreenshot.com/image/45128690?key=1973b5b7cbdec24dcb98be4c06619dcd
